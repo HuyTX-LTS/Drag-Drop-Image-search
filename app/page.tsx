@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Input from "@/component/input";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Input />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
